@@ -1,0 +1,19 @@
+{
+    "name": "irmnet/auth",
+    "description": "Module of management of sector.", 
+    "keywords": [
+    "framework",
+    "zf2",
+    "doctrine"
+    ],
+    
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload":{
+        "psr-0":{
+            "Setor":"src"
+        },
+        "classmap": ["Module.php"]
+    }
+}
