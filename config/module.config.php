@@ -1,6 +1,6 @@
 <?php
 
-namespace Setores;
+namespace Setor;
 
 return array(
     'controllers' => array(
