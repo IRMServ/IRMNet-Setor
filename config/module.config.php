@@ -5,7 +5,7 @@ namespace Setor;
 return array(
     'controllers' => array(
         'invokables' => array(
-            'Helpdesk\Controller\Setor' => 'Helpdesk\Controller\SetorController',
+            'Setor\Controller\Setor' => 'Setor\Controller\SetorController',
         ),
     ),
     'router' => array(
@@ -15,7 +15,7 @@ return array(
                 'options' => array(
                     'route' => '/setor',
                     'defaults' => array(
-                        'controller' => 'Helpdesk\Controller\Setor',
+                        'controller' => 'Setor\Controller\Setor',
                         'action' => 'index',
                     ),
                 ),
